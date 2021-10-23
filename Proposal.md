@@ -55,7 +55,7 @@ Classification of Baseline and Pre-Seizure EEG Signals for Epileptic Patients
 
 2. Are you planning in advance to need or use additional tools beyond those required?
 
-    - I will be using the Extra Trees Classifier from SKLearn which has been proven as a strong classification model for this data in the literature, and is not taught as part of the classification module for Metis. I will also use [pywavelets](https://pywavelets.readthedocs.io/en/latest/index.html), a python library for wavelet transformations, to decompose EEG signals and derive information about the different frequencies expressed in the original EEG signal. 
+    - I will be using the Extra Trees Classifier from SKLearn which has been proven as a strong classification model for this data in the literature, and is not taught as part of the classification module for Metis. I will also use [pywavelets](https://pywavelets.readthedocs.io/en/latest/index.html), a python library for wavelet transformations, to decompose EEG signals and derive information about the different frequencies expressed in the original EEG signal.
 
 
 
@@ -63,4 +63,4 @@ Classification of Baseline and Pre-Seizure EEG Signals for Epileptic Patients
 
 1. What would a minimum viable product (MVP) look like for this project?
 
-    - My MVP will be a visualization of the EEG signals at n levels using different wavelet transformations in order to show why I chose Daubechies 3 with 5 levels of decomposition.
+    - My MVP will be a visualization of the EEG signals at *n* levels of decomposition using different wavelet patterns in order to show why I chose Daubechies 3 with 5 levels of decomposition.
