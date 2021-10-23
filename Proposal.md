@@ -1,3 +1,6 @@
+![Banner](https://github.com/CeliaSagas/EEG-Classification/blob/ea04509c7d718a20ba113980dbb6475299d47efe/img/EEG%20Class.jpg)
+
+
 
 # EEG-Classification
 Classification of Baseline and Pre-Seizure EEG Signals for Epileptic Patients
@@ -9,7 +12,7 @@ Classification of Baseline and Pre-Seizure EEG Signals for Epileptic Patients
 
 1. What is the question behind your analysis? What is the purpose of the model/system you plan to build?
 
-    - Epileptic seizures are defined as a sudden change in behavior due to a temporary change in the electrical functioning of the brain (![AANS.org](https://www.aans.org/en/Patients/Neurosurgical-Conditions-and-Treatments/Epilepsy#:~:text=Epilepsy%20is%20a%20disorder%20of,impulses%20in%20an%20orderly%20pattern.)). These temporary changes in electrical functioning of the brain can be recorded and classified using EEG signals, data that is collected using non-invasive electrode placement on the scalp of an epileptic patient that records electrical functioning within the brain. Identifying preictal (pre-seizure) EEG patterns from baseline (interictal) signals is critical in order to create wearable technology that can detect the warning signs of an impending seizure and alert users to the likelihood of an oncoming seizure.
+    - Epileptic seizures are defined as a sudden change in behavior due to a temporary change in the electrical functioning of the brain ([AANS.org](https://www.aans.org/en/Patients/Neurosurgical-Conditions-and-Treatments/Epilepsy#:~:text=Epilepsy%20is%20a%20disorder%20of,impulses%20in%20an%20orderly%20pattern.)). These temporary changes in electrical functioning of the brain can be recorded and classified using EEG signals, data that is collected using non-invasive electrode placement on the scalp of an epileptic patient that records electrical functioning within the brain. Identifying preictal (pre-seizure) EEG patterns from baseline (interictal) signals is critical in order to create wearable technology that can detect the warning signs of an impending seizure and alert users to the likelihood of an oncoming seizure.
 
 
 
@@ -24,11 +27,11 @@ Classification of Baseline and Pre-Seizure EEG Signals for Epileptic Patients
 
 1. What dataset(s) do you plan to use, and how will you obtain the data?
 
-  - The dataset I will be using comes from the ![American Epilepsy Society Seizure Prediction Challenge](https://www.kaggle.com/c/seizure-prediction/overview) and includes 10 minute EEG recordings labeled 'preictal' or 'interictal' for 5 canines and 2 humans with epilepsy.
+  - The dataset I will be using comes from the [American Epilepsy Society Seizure Prediction Challenge](https://www.kaggle.com/c/seizure-prediction/overview) and includes 10 minute EEG recordings labeled 'preictal' or 'interictal' for 5 canines and 2 humans with epilepsy.
 
 2. What is an individual sample/unit of analysis in this project?
 
- - A single unit of analysis is a 30 second clip of EEG signals, transformed with ![Discrete Multilevel Wavelet Decomposition](https://pywavelets.readthedocs.io/en/latest/ref/dwt-discrete-wavelet-transform.html), using the Daubechies 3 wavelet for 5 levels of decomposition.
+ - A single unit of analysis is a 30 second clip of EEG signals, transformed with [Discrete Multilevel Wavelet Decomposition](https://pywavelets.readthedocs.io/en/latest/ref/dwt-discrete-wavelet-transform.html), using the Daubechies 3 wavelet for 5 levels of decomposition.
 
 
 
