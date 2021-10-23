@@ -38,7 +38,7 @@ Classification of Baseline and Pre-Seizure EEG Signals for Epileptic Patients
 
 3. What characteristics/features do you expect to work with?
 
-    - From the coefficient arrays derived from the wavelet transformation, the entropy, maximum, minimum, mean, standard deviation, zero crossings, and mean crossings are derived and used as features for the classification model.
+    - From the coefficient arrays derived from the wavelet transformation, the maximum, minimum, mean, standard deviation, zero crossings, and mean crossings are derived and used as features for the classification model.
 
 
 4. If modeling, what will you predict as your target?
