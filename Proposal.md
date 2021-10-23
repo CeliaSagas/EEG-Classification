@@ -55,7 +55,7 @@ Classification of Baseline and Pre-Seizure EEG Signals for Epileptic Patients
 
 2. Are you planning in advance to need or use additional tools beyond those required?
 
- - I will be using the Extra Trees Classifier from SKLearn which has been proven as a strong classification model for this data in the literature.
+ - I will be using the Extra Trees Classifier from SKLearn which has been proven as a strong classification model for this data in the literature, and is not taught as part of the classification module for Metis. 
 
 
 
