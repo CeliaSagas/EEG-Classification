@@ -19,7 +19,7 @@ Classification of Baseline and Pre-Seizure EEG Signals for Epileptic Patients
 
 2. Who benefits from exploring this question or building this model/system?
 
-    - Alerting epileptic patients and/or their families or guardians (depending on patient age and guardianship status) to the likelihood of oncoming seizures is critical to protecting the health and wellbeing of those who live with epilepsy. Seizures can cause temporary disturbances to motor control and  cognition, causing individuals to lose consciousness and/or physical control and possible harm to themselves or others. A warning system can help those with Epilepsy prepare for a seizure by situating themselves in a safe environment and warning others who may be able to support them.
+    - Alerting epileptic patients and/or their families or guardians (depending on patient age and guardianship status) to the likelihood of oncoming seizures is critical to protecting the health and wellbeing of those who live with epilepsy. Seizures can cause temporary disturbances to motor control and  cognition, causing individuals to lose consciousness and/or physical control and possibly cause harm to themselves or others. A warning system can help those with Epilepsy prepare for a seizure by situating themselves in a safe environment and warning others who may be able to support them.
 
 
 
