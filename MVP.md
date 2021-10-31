@@ -11,6 +11,11 @@ Extra Trees is the most effective classification model for this data, outperform
 
 ![Accuracy Score per Electrode](https://github.com/CeliaSagas/EEG-Classification/blob/74ee58bf889ff060d0e053e69163246f713d3998/img/Accuracy_score_cv.png)
 
-**Model performance improves if single channel recording statistics are aggregated per 10 Minute recording session**
 
-![Accuracy Score per Recording](https://github.com/CeliaSagas/EEG-Classification/blob/74ee58bf889ff060d0e053e69163246f713d3998/img/Accuracy_score_cv_long.png)
+
+![F Score per Recording](https://github.com/CeliaSagas/EEG-Classification/blob/74ee58bf889ff060d0e053e69163246f713d3998/img/Accuracy_score_cv_long.png)
+
+I also aggregated single channel recording statistics per file, and model performance improves by 3%
+
+
+![Accuracy Score Aggregate](https://github.com/CeliaSagas/EEG-Classification/blob/691c4e93ac2909a53e1485a442bf4eb784d7ac05/img/F_score_cv.png)
