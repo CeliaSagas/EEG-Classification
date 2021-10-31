@@ -9,8 +9,8 @@ Identifying Pre-Seizure EEG Signals in Epileptic Patients
 Extra Trees is the most effective classification model for this data, outperforming all other models (Bayes, Logistic Regression, XGBoost, and Random Forest) on statistics derived from single channel 10 minute recordings per electrode:
 
 
-![Accuracy Score per Electrode](https://github.com/CeliaSagas/Data-Coin/blob/22583032ecc7f28e60e0e58b921188df5765866f/PredvsActual.png)
+![Accuracy Score per Electrode](https://github.com/CeliaSagas/EEG-Classification/blob/74ee58bf889ff060d0e053e69163246f713d3998/img/Accuracy_score_cv.png)
 
 **Model performance improves if single channel recording statistics are aggregated per 10 Minute recording session**
 
-![Accuracy Score per Recording](https://github.com/CeliaSagas/Data-Coin/blob/22583032ecc7f28e60e0e58b921188df5765866f/Residual.png)
+![Accuracy Score per Recording](https://github.com/CeliaSagas/EEG-Classification/blob/74ee58bf889ff060d0e053e69163246f713d3998/img/Accuracy_score_cv_long.png)
