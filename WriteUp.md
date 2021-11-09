@@ -41,11 +41,11 @@ Logistic Regression, Naïve Bayes, Random Forest, XGBoost, and Extra Trees class
 
 **Model Evaluation and Selection**
 
-The training set of 4,069 recordings was split into 80/20 train vs. holdout, all features were generated separately for training and testing respectively, and all scores were reported below were calculated with 5-fold cross validation on the training portion only.
+The training set of 4,067 recordings was split into 80/20 train vs. holdout, all features were generated separately for training and testing respectively, and all scores were reported below were calculated with 5-fold cross validation on the training portion only.
 
 The metric used for the American Epilepsy Competition was accuracy, however, f1 was also taken into consideration as a more useful means of identifying the strength of the model in identifying a minority class.
 
-Finally, the training and holdout data were combined to train the model for the Kaggle competition data, for which a key has now been released. The model was tested on the competition set and the scores are also reported below.
+Finally, the training and holdout data were combined to train the model for the Kaggle competition data, consisting of 3,935 recordings, for which a key has now been released. The model was tested on the competition set and the scores are also reported below.
 
 **Final Extra Trees 5-fold CV Scores: 928 Features**
 
