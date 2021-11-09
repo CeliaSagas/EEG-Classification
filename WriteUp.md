@@ -1,4 +1,4 @@
-![Header](https://github.com/CeliaSagas/EEG-Classification/blob/079217439009b1b819e28221496e2287f7911dd7/img/EEG%20Class.jpg)
+![Header](https://github.com/CeliaSagas/EEG-Classification/blob/0637ec5a882a1b6dd030057aa6e9726643d43a90/img/EEG%20Class.jpg)
 
 
 
