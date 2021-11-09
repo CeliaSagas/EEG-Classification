@@ -26,12 +26,12 @@ This project originated from the American Epilepsy Society Seizure Prediction Ch
 
 The following transformations were performed on the data in order to support further analysis:
 
-    1.	Extracted subject ID, segment type, and recording order for each file.
-    2.	Selected the first 15 electrode channels for each subject.
-    3.	Resampled each signal to 399 MHz to have a consistent signal frequency across all subjects.
-    4.	Performed a discrete wavelet transformation to 5 levels of decomposition for each single electrode channel
-    5.	Computed the zero crossings, mean crossings, maximum, minimum, mean, standard deviation, and skew for each single channel.
-    6.	Computed the correlation coefficients for each channel in the ten-minute recording.
+  1.	Extracted subject ID, segment type, and recording order for each file.
+  2.	Selected the first 15 electrode channels for each subject.
+  3.	Resampled each signal to 399 MHz to have a consistent signal frequency across all subjects.
+  4.	Performed a discrete wavelet transformation to 5 levels of decomposition for each single electrode channel
+  5.	Computed the zero crossings, mean crossings, maximum, minimum, mean, standard deviation, and skew for each single channel.
+  6.	Computed the correlation coefficients for each channel in the ten-minute recording.
 
 
 
@@ -49,24 +49,24 @@ Finally, the training and holdout data were combined to train the model for the 
 
 **Final Extra Trees 5-fold CV Scores: 928 Features**
 
-    -	Accuracy: 94.65%
-    -	Precision: 94.0%
-    -	Recall: 30.7%
-    -	F1: 45.9%
+  -	Accuracy: 94.65%
+  -	Precision: 94.0%
+  -	Recall: 30.7%
+  -	F1: 45.9%
 
 **Holdout**
 
-    -	Accuracy: 94.84%
-    -	Precision: 93.75%
-    -	Recall: 26.8%
-    -	F1: 41.6%
+  -	Accuracy: 94.84%
+  -	Precision: 93.75%
+  -	Recall: 26.8%
+  -	F1: 41.6%
 
 **Competition Test Data**
 
-    -	Accuracy: 89.6%
-    -	Precision: 10.9%
-    -	Recall: 8.7%
-    -	F1: 9.7%
+  -	Accuracy: 89.6%
+  -	Precision: 10.9%
+  -	Recall: 8.7%
+  -	F1: 9.7%
 
 
 **Tools**
