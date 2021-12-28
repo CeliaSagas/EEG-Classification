@@ -95,13 +95,15 @@ The following transformations were performed on the data in order to support fur
 
   ![XG Boost Confusion Matrix](https://github.com/CeliaSagas/EEG-Classification/blob/5b477abe64c37ab00fd32f7f16a562ca11d0cca9/img/'Confusion_matrix_XGBoost_final.png)
 
+  The training and validation phase revealed that XGBoost Classifier works best with this data set, scoring an .859 ROC score, compared to Logistic Regressions’ .627, and narrowly beating out a Random Forest score of .851.
+  The final model can correctly identify the difference between baseline and pre-seizure signals with a final ROC score of .841 across all patients, with no hyper-parameter tuning. Just a simple fit.
+
+
 
 # Usage
 [(Back to top)](#table-of-contents)
 
-American Epilepsy Society Seizure Prediction Data:
-
-[American Epilepsy Data](https://www.kaggle.com/c/seizure-prediction/overview)
+American Epilepsy Society Seizure Prediction Data:[Kaggle](https://www.kaggle.com/c/seizure-prediction/overview)
 
 
 # License
