@@ -2,6 +2,7 @@
 ![Banner](https://github.com/CeliaSagas/EEG-Classification/blob/5b477abe64c37ab00fd32f7f16a562ca11d0cca9/img/EEG%20Class.jpg)
 
 # EEG Classification
+Identifying Pre-Seizure state in Electrical Brain Wave Activity with Wavelet Decomposition
 
 <!-- Add buttons here -->
 
