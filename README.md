@@ -71,10 +71,10 @@ The following transformations were performed on the data in order to support fur
 
   1.	Extracted subject ID, segment type, and recording order for each file.
   2.	Selected the first 15 electrode channels for each subject.
-  3.	Resampled each signal to 399 MHz to have a consistent signal frequency across all subjects.
-  4.	Performed a discrete wavelet transformation to 5 levels of decomposition for each single electrode channel
-  5.	Computed the zero crossings, mean crossings, maximum, minimum, mean, standard deviation, and skew for each single channel.
-  6.	Computed the correlation coefficients for each channel in the ten-minute recording.
+  3.	Resampled each signal to 256 mHz to have a consistent signal frequency across all subjects.
+  4.	Performed a discrete wavelet transformation to 6 levels of decomposition for one electrode channel
+  5.	Computed energy per wavelet level.
+  6.	Calculated the correlation coefficients for each channel in the ten-minute recording.
 
 # Models
 
@@ -85,11 +85,10 @@ The following transformations were performed on the data in order to support fur
 
   **Model Evaluation and Selection**
 
-  The training set of 4,067 recordings was split into 80/20 train vs. holdout, all features were generated separately for training and testing respectively, and all scores were reported below were calculated with 5-fold cross validation on the training portion only.
+  The training set of 4,067 recordings was split into 80/20 train vs. holdout, all features were generated separately for training and testing respectively.
 
-  The metric used for the American Epilepsy Competition was accuracy, however, f1 was also taken into consideration as a more useful means of identifying the strength of the model in identifying a minority class.
+  The metric used for the American Epilepsy Competition was ROC AUC, and it was used to evaluate model efficacy.
 
-  Finally, the training and holdout data were combined to train the model for the Kaggle competition data, consisting of 3,935 recordings, for which a key has now been released. The model was tested on the competition set and the scores are also reported below.
 
   ![XG Boost ROC AUC](https://github.com/CeliaSagas/EEG-Classification/blob/5b477abe64c37ab00fd32f7f16a562ca11d0cca9/img/XGBoost_final.png)
 
