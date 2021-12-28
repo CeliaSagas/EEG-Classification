@@ -117,7 +117,8 @@ This project is designed for free and open use.
 # Footer
 [(Back to top)](#table-of-contents)
 
-I hope this information brings you all the fulfillment and Salary options in your job search!
+Here's to the future of wearable tech for people living with epilepsy!
+(This Project is Dedicated to Orion <3)
 
 <!-- Add the footer here -->
 
