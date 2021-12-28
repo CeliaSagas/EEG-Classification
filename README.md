@@ -1,5 +1,5 @@
 <!-- Add banner here -->
-![Banner](https://github.com/CeliaSagas/Data-Coin/blob/e016fd55fecf69dd8a8a5694ae838f494b5f0517/img/datacoinheader.png)
+![Banner](https://github.com/CeliaSagas/EEG-Classification/blob/5b477abe64c37ab00fd32f7f16a562ca11d0cca9/img/EEG%20Class.jpg)
 
 # EEG Classification
 
@@ -32,24 +32,24 @@ This technology isn't a cure, but it is a useful tool that would make living wit
 
 This project uses Python packages: pandas, numpy, request, os, PyWavelets, XGBoost, sklearn, scipy, collections, glob, itertools, seaborn, and matplotlib to model and visualize salary data scraped from Glassdoor.
 
-![Preictal Title](https://github.com/CeliaSagas/Data-Coin/blob/12b8f09a65710ad579b19c905886df361f192a97/img/salary_hist.png)
+![Preictal Title](https://github.com/CeliaSagas/EEG-Classification/blob/5b477abe64c37ab00fd32f7f16a562ca11d0cca9/img/preictal_title.png)
 
-![Preictal Wavelet](https://github.com/CeliaSagas/Data-Coin/blob/12b8f09a65710ad579b19c905886df361f192a97/img/salary_hist.png)
+![Preictal Wavelet](https://github.com/CeliaSagas/EEG-Classification/blob/5b477abe64c37ab00fd32f7f16a562ca11d0cca9/img/preictal.png)
 
 Wavelet transformation involves decomposing a signal into a set of wavelets, or wave-like oscillations. We're basically calculating how much of a certain type of wavelet, or shape, is in that signal.
 
 This decomposition approach generates an array for each level of wave transformation, plus an approximation coefficient, which is basically the low pass, or "coarse", representation of the original signal.
 
 
-![Preictal Correlation](https://github.com/CeliaSagas/Data-Coin/blob/12b8f09a65710ad579b19c905886df361f192a97/img/revenue_bar.png)
+![Preictal Correlation](https://github.com/CeliaSagas/EEG-Classification/blob/5b477abe64c37ab00fd32f7f16a562ca11d0cca9/img/preictalCorrelation.png)
 
 
-![Interictal Correlation](https://github.com/CeliaSagas/Data-Coin/blob/12b8f09a65710ad579b19c905886df361f192a97/img/location_bar.png)
+![Interictal Correlation](https://github.com/CeliaSagas/EEG-Classification/blob/5b477abe64c37ab00fd32f7f16a562ca11d0cca9/img/interictalCorrelation.png)
 
 Correlation coefficients for the 1st electrode with each of the other 15 electrodes in the signal, and removed the correlation for the electrode with itself (which is 1.0).
 
 
-[Click Here](https://github.com/CeliaSagas/Data-Coin) to see the full project
+[Click Here](https://github.com/CeliaSagas/EEG-classification) to see the full project
 
 # Table of contents
 
@@ -91,10 +91,10 @@ The following transformations were performed on the data in order to support fur
 
   Finally, the training and holdout data were combined to train the model for the Kaggle competition data, consisting of 3,935 recordings, for which a key has now been released. The model was tested on the competition set and the scores are also reported below.
 
-  ![XG Boost ROC AUC](https://github.com/CeliaSagas/Data-Coin/blob/12b8f09a65710ad579b19c905886df361f192a97/img/revenue_bar.png)
+  ![XG Boost ROC AUC](https://github.com/CeliaSagas/EEG-Classification/blob/5b477abe64c37ab00fd32f7f16a562ca11d0cca9/img/XGBoost_final.png)
 
 
-  ![XG Boost Confusion Matrix](https://github.com/CeliaSagas/Data-Coin/blob/12b8f09a65710ad579b19c905886df361f192a97/img/location_bar.png)
+  ![XG Boost Confusion Matrix](https://github.com/CeliaSagas/EEG-Classification/blob/5b477abe64c37ab00fd32f7f16a562ca11d0cca9/img/'Confusion_matrix_XGBoost_final.png)
 
 
 # Usage
@@ -119,4 +119,4 @@ I hope this information brings you all the fulfillment and Salary options in you
 
 <!-- Add the footer here -->
 
-![Footer](https://github.com/CeliaSagas/Data-Coin/blob/12b8f09a65710ad579b19c905886df361f192a97/img/datacoinfooter.png)
+![Footer](https://github.com/CeliaSagas/EEG-Classification/blob/5b477abe64c37ab00fd32f7f16a562ca11d0cca9/img/footer.jpg)
